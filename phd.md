@@ -7,6 +7,22 @@ title: PhD Details
 
 During my time at the Department of Aerospace Engineering, Indian Institute of Technology Madras, I focused on accelerating fluid-structure interaction simulations and surrogate modeling using Physics-Informed Neural Networks (PINNs) and High-Performance Computing.
 
+## Committee & Collaborators
+- **PhD Advisor**: [Prof. Sunetra Sarkar](https://home.iitm.ac.in/sunetra/), IIT Madras
+- **Collaborator**: [Dr. Didier Lucor](https://www.lisn.upsaclay.fr/), CNRS - LISN, Paris, France
+- **External Examiner**: [Prof. Kai Fukami](https://www.kaif.mech.tohoku.ac.jp/), Tohoku University
+- **Doctoral Committee**: 
+  - [Prof. Nandan Kumar Sinha](https://www.iitm.ac.in/info/fac/nandan), IIT Madras
+  - [Prof. Shaligram Tiwari](https://mech.iitm.ac.in/meiitm/personnal/shaligram-tiwari/), IIT Madras
+  - [Prof. R. I. Sujith](https://www.ae.iitm.ac.in/~sujith/), IIT Madras
+- **Chair Person**: [Prof. P. Sriram](http://ae.iitm.ac.in/~sriram), IITM AE Dept.
+
+## Timeline
+- **Registration**: 09th July, 2019
+- **Submission**: 5th Feb, 2026
+- **Defence**: 16th April, 2026
+- **Award**: 17th July, 2026
+
 ## Dissertation
 
 **Title**: Accelerated computing and deep learning enablers for surrogate modeling of unsteady flow past moving bodies.
