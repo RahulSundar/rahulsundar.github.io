@@ -16,6 +16,6 @@ title: Resume
 - Machine Learning: PINNs, PyTorch, SciJEPA
 - Programming: Python, C++
 
-*[Download PDF version of Resume](assets/resume.pdf) (Placeholder link)*
+*[Download Resume (PDF)](/assets/RahulSundar_Resume.pdf)*
 
 *(Add detailed resume information here)*
