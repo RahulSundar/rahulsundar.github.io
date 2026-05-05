@@ -5,7 +5,9 @@ title: Home
 
 # Hi there 👋
 
-I am [Rahul Sundar](https://in.linkedin.com/in/rahul-sundar-311a6977), a MS/PHD scholar in the [Department of Aerospace Engineering, Indian Institute of Technology Madras](http://www.ae.iitm.ac.in/index.htm). I am a research assistant in the [Biomimetics and Dynamics lab](https://github.com/biomimetics-iitm) at IIT Madras under [Prof Sunetra Sarkar](https://home.iitm.ac.in/sunetra/).
+I am [Rahul Sundar](https://in.linkedin.com/in/rahul-sundar-311a6977), a PhD graduate from the [Department of Aerospace Engineering, Indian Institute of Technology Madras](http://www.ae.iitm.ac.in/index.htm). I am currently working as a **Scientist II - AI/ML** at Verisk Catastrophe and Risk Solutions, building the next generation of climate models using generative AI and computer vision.
+
+During my PhD, I was a research assistant in the [Biomimetics and Dynamics lab](https://github.com/biomimetics-iitm) at IIT Madras under [Prof Sunetra Sarkar](https://home.iitm.ac.in/sunetra/).
 
 ![Rahul Sundar's github stats](https://github-readme-stats.vercel.app/api?username=RahulSundar&count_private=true)
 

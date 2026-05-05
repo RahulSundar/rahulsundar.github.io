@@ -5,7 +5,7 @@ title: Research
 
 # Research
 
-As part of my PhD I am passionate about studying forward and inverse Fluid Structure Interaction problems as they offer me the opportunity to go deep and wide in different interconnected topics mentioned below:
+As part of my PhD, I was passionate about studying forward and inverse Fluid Structure Interaction problems as they offered me the opportunity to go deep and wide in different interconnected topics mentioned below:
 - High Performance Computing
 - Model Order Reduction
 - System Identification
@@ -16,7 +16,7 @@ As part of my PhD I am passionate about studying forward and inverse Fluid Struc
 - Nonlinear Dynamics
 - Stochastic processes and dynamical systems
 
-I am studying flapping wing flyers and the associated nonlinear dynamical phenomenon occurring due to the fluid-structure interactions in different regimes of flight and the aerodynamic performance. Although the focus is on flapping wing flyers, the ramifications of the methods developed for such systems extend to microfluidic medical devices, vibrating chimneys, wind energy harvesting, weather forecasting, coupled dynamical systems, etc. 
+I studied flapping wing flyers and the associated nonlinear dynamical phenomenon occurring due to the fluid-structure interactions in different regimes of flight and the aerodynamic performance. Although the focus was on flapping wing flyers, the ramifications of the methods developed for such systems extend to microfluidic medical devices, vibrating chimneys, wind energy harvesting, weather forecasting, coupled dynamical systems, etc.  
 
 ## Broader Interests
 
