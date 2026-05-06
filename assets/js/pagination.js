@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
             controls.innerHTML = ''; // Clear
 
             const prevBtn = document.createElement('button');
-            prevBtn.innerText = 'Prev';
+            prevBtn.innerHTML = '&larr; Previous';
             prevBtn.disabled = currentPage === 1;
             prevBtn.addEventListener('click', () => {
                 if (currentPage > 1) {
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             const nextBtn = document.createElement('button');
-            nextBtn.innerText = 'Next';
+            nextBtn.innerHTML = 'Next &rarr;';
             nextBtn.disabled = currentPage === totalPages;
             nextBtn.addEventListener('click', () => {
                 if (currentPage < totalPages) {

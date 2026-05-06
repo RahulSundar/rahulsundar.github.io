@@ -6,44 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
+    
+    <!-- Theme Script to prevent FOUC -->
+    <script>
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="site-header">
         <div class="wrapper">
-            <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            <!-- Mobile Menu Toggle -->
             <button class="menu-toggle" id="mobile-menu-btn" aria-label="Toggle navigation">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
+
+            <!-- Navigation (Left on Desktop, Collapsed on Mobile) -->
             <nav class="site-nav" id="site-navigation">
                 <a href="{{ '/' | relative_url }}">Home</a>
                 <a href="{{ '/research/' | relative_url }}">Research</a>
                 <a href="{{ '/phd/' | relative_url }}">PhD</a>
                 <a href="{{ '/publications/' | relative_url }}">Publications</a>
                 <a href="{{ '/software/' | relative_url }}">Software</a>
-                <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
-                <a href="{{ '/outreach/' | relative_url }}">Outreach</a>
                 <a href="{{ '/blog/' | relative_url }}">Blog</a>
-                <a href="{{ '/others/' | relative_url }}">Others</a>
-                <a href="{{ '/resume/' | relative_url }}">Resume</a>
             </nav>
+
+            <!-- Site Title (Center) -->
+            <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+
+            <!-- Actions (Right) -->
+            <div class="header-actions">
+                <button class="theme-toggle" id="theme-toggle-btn" aria-label="Toggle theme">
+                    <!-- Sun/Moon SVG will be dynamically swapped or handled via JS -->
+                    <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12 21c-4.962 0-9-4.038-9-9s4.038-9 9-9 9 4.038 9 9-4.038 9-9 9zM12 5c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/>
+                        <path d="M12 17A5 5 0 1 0 12 7a5 5 0 0 0 0 10z" />
+                    </svg>
+                </button>
+            </div>
         </div>
     </header>
 
     <main class="page-content" aria-label="Content">
-        <div class="wrapper">
+        <div class="wrapper fade-in">
             {{ content }}
         </div>
     </main>
 
     <footer class="site-footer">
-        <div class="wrapper">
+        <div class="wrapper fade-in">
             <p>&copy; {{ site.time | date: '%Y' }} {{ site.author | default: site.title }}. Powered by Jekyll.</p>
         </div>
     </footer>
@@ -55,6 +76,8 @@
             document.getElementById('site-navigation').classList.toggle('active');
         });
     </script>
+    <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/animations.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/pagination.js' | relative_url }}"></script>
 </body>
 </html>
