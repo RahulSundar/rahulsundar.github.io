@@ -3,30 +3,85 @@ layout: default
 title: Home
 ---
 
-<div style="text-align: center; margin-bottom: 2em;">
-    <img src="https://raw.githubusercontent.com/RahulSundar/RahulSundar/master/Logo.png" width="40%" height="40%" alt="Rahul Sundar Logo">
+<div class="hero-section fade-in">
+    <div class="hero-image">
+        <img src="https://raw.githubusercontent.com/RahulSundar/RahulSundar/master/Logo.png" alt="Rahul Sundar Logo">
+    </div>
+    <div class="hero-text">
+        <h1>Rahul Sundar</h1>
+        <p>
+            I am a PhD graduate from the <a href="http://www.ae.iitm.ac.in/index.htm" target="_blank">Department of Aerospace Engineering, Indian Institute of Technology Madras</a>. Currently, I serve as a <strong>Scientist II - AI/ML</strong> at Verisk Catastrophe and Risk Solutions, where I build the next generation of climate models utilizing generative AI and computer vision.
+        </p>
+        <p>
+            During my doctoral studies, I worked as a research assistant in the <a href="https://github.com/biomimetics-iitm" target="_blank">Biomimetics and Dynamics lab</a> at IIT Madras under the guidance of <a href="https://home.iitm.ac.in/sunetra/" target="_blank">Prof. Sunetra Sarkar</a>. My work exists at the intersection of fluid dynamics, scientific machine learning, and artificial intelligence.
+        </p>
+    </div>
 </div>
 
-# Hi there 👋
+<div class="nav-grid">
+    <a href="{{ '/research/' | relative_url }}" class="nav-grid-link">
+        <div class="suave-card fade-in">
+            <h3>Research &rarr;</h3>
+            <p>Forward and inverse Fluid Structure Interaction, PINNs, and Generative AI.</p>
+        </div>
+    </a>
+    <a href="{{ '/phd/' | relative_url }}" class="nav-grid-link">
+        <div class="suave-card fade-in">
+            <h3>Doctoral Work &rarr;</h3>
+            <p>Full thesis, AI-generated podcast summaries, and seminar presentations.</p>
+        </div>
+    </a>
+    <a href="{{ '/publications/' | relative_url }}" class="nav-grid-link">
+        <div class="suave-card fade-in">
+            <h3>Publications &rarr;</h3>
+            <p>Peer-reviewed journal articles and conference proceedings.</p>
+        </div>
+    </a>
+    <a href="{{ '/software/' | relative_url }}" class="nav-grid-link">
+        <div class="suave-card fade-in">
+            <h3>Software &rarr;</h3>
+            <p>Open-source tools and platforms, including SARAL AI and PyIBAML.</p>
+        </div>
+    </a>
+    <a href="{{ '/outreach/' | relative_url }}" class="nav-grid-link">
+        <div class="suave-card fade-in">
+            <h3>Outreach &rarr;</h3>
+            <p>Community initiatives, Dhyuti Frontiers, and GDG AI for Science.</p>
+        </div>
+    </a>
+    <a href="{{ '/teaching/' | relative_url }}" class="nav-grid-link">
+        <div class="suave-card fade-in">
+            <h3>Teaching &rarr;</h3>
+            <p>Mentorship and educational endeavors.</p>
+        </div>
+    </a>
+    <a href="{{ '/blog/' | relative_url }}" class="nav-grid-link">
+        <div class="suave-card fade-in">
+            <h3>Blog &rarr;</h3>
+            <p>Technical deep-dives and non-technical musings.</p>
+        </div>
+    </a>
+    <a href="{{ '/resume/' | relative_url }}" class="nav-grid-link">
+        <div class="suave-card fade-in">
+            <h3>Resume &rarr;</h3>
+            <p>Professional experience, education, skills, and hackathons.</p>
+        </div>
+    </a>
+</div>
 
-I am [Rahul Sundar](https://in.linkedin.com/in/rahul-sundar-311a6977), a PhD graduate from the [Department of Aerospace Engineering, Indian Institute of Technology Madras](http://www.ae.iitm.ac.in/index.htm). I am currently working as a **Scientist II - AI/ML** at Verisk Catastrophe and Risk Solutions, building the next generation of climate models using generative AI and computer vision.
+<hr>
 
-During my PhD, I was a research assistant in the [Biomimetics and Dynamics lab](https://github.com/biomimetics-iitm) at IIT Madras under [Prof Sunetra Sarkar](https://home.iitm.ac.in/sunetra/).
-
-## Site Navigation Guide
-Welcome to my personal website! Here is a quick guide to help you find what you are looking for:
-
-- **[Research](/research/)**: Learn about my focus on forward and inverse Fluid Structure Interaction problems, PINNs, and my broader interests in Scientific Machine Learning and Generative AI.
-- **[PhD Details](/phd/)**: Dive deep into my doctoral work. You can read my full thesis, listen to an AI-generated podcast summary, or click through my seminar presentations.
-- **[Publications](/publications/)**: A comprehensive list of my peer-reviewed journal articles and conference proceedings.
-- **[Software](/software/)**: Explore the open-source tools and platforms I have built or contributed to, including SARAL AI and PyIBAML.
-- **[Outreach](/outreach/)**: Discover my community initiatives, including Dhyuti Frontiers, GDG AI for Science, and the SARAL AI platform.
-- **[Teaching](/teaching/)**: Information regarding my mentorship and educational endeavors.
-- **[Blog](/blog/)**: Read my technical deep-dives and non-technical musings.
-- **[Resume](/resume/)**: An overview of my professional experience, education, skills, and hackathons.
-
-## Contact
-
-Reach out to me and let me know how I can assist you in making your day brighter and better! I would love to serve/ guide/ collaborate with any passionate individual working/ seeking to work in similar areas or require a skill set that I can offer. 
-
-Email: [rahul.sundar95@gmail.com](mailto:rahul.sundar95@gmail.com)
+<div class="text-center fade-in mb-8 mt-8">
+    <h2>Get in Touch</h2>
+    <p>I am always open to collaborating with passionate individuals working in similar areas or seeking mentorship.</p>
+    <a href="mailto:rahul.sundar95@gmail.com" class="nav-grid-link">
+        <button style="background: var(--heading-color); color: var(--bg-color); border: 1px solid var(--heading-color); padding: 0.75rem 2.5rem; border-radius: 2rem; font-family: var(--font-sans); font-size: 1rem; font-weight: 500; cursor: pointer; transition: var(--transition); margin-top: 1rem;">
+            Email Me
+        </button>
+    </a>
+    <a href="https://in.linkedin.com/in/rahul-sundar-311a6977" target="_blank" class="nav-grid-link" style="margin-left: 1rem;">
+        <button style="background: transparent; color: var(--text-color); border: 1px solid var(--border-color); padding: 0.75rem 2.5rem; border-radius: 2rem; font-family: var(--font-sans); font-size: 1rem; font-weight: 500; cursor: pointer; transition: var(--transition); margin-top: 1rem;">
+            LinkedIn
+        </button>
+    </a>
+</div>
