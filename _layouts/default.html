@@ -41,18 +41,20 @@
                 <a href="{{ '/blog/' | relative_url }}">Blog</a>
             </nav>
 
-            <!-- Site Title (Center) -->
-            <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            <div class="header-right">
+                <!-- Site Title (Right) -->
+                <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
 
-            <!-- Actions (Right) -->
-            <div class="header-actions">
-                <button class="theme-toggle" id="theme-toggle-btn" aria-label="Toggle theme">
-                    <!-- Sun/Moon SVG will be dynamically swapped or handled via JS -->
-                    <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M12 21c-4.962 0-9-4.038-9-9s4.038-9 9-9 9 4.038 9 9-4.038 9-9 9zM12 5c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/>
-                        <path d="M12 17A5 5 0 1 0 12 7a5 5 0 0 0 0 10z" />
-                    </svg>
-                </button>
+                <!-- Actions -->
+                <div class="header-actions">
+                    <button class="theme-toggle" id="theme-toggle-btn" aria-label="Toggle theme">
+                        <!-- Sun/Moon SVG will be dynamically swapped or handled via JS -->
+                        <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12 21c-4.962 0-9-4.038-9-9s4.038-9 9-9 9 4.038 9 9-4.038 9-9 9zM12 5c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/>
+                            <path d="M12 17A5 5 0 1 0 12 7a5 5 0 0 0 0 10z" />
+                        </svg>
+                    </button>
+                </div>
             </div>
         </div>
     </header>
