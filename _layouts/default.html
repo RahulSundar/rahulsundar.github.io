@@ -10,13 +10,18 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="site-header">
         <div class="wrapper">
             <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-            <nav class="site-nav">
+            <button class="menu-toggle" id="mobile-menu-btn" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="site-nav" id="site-navigation">
                 <a href="{{ '/' | relative_url }}">Home</a>
                 <a href="{{ '/research/' | relative_url }}">Research</a>
                 <a href="{{ '/phd/' | relative_url }}">PhD</a>
@@ -42,5 +47,14 @@
             <p>&copy; {{ site.time | date: '%Y' }} {{ site.author | default: site.title }}. Powered by Jekyll.</p>
         </div>
     </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Mobile Menu Toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            document.getElementById('site-navigation').classList.toggle('active');
+        });
+    </script>
+    <script src="{{ '/assets/js/pagination.js' | relative_url }}"></script>
 </body>
 </html>
