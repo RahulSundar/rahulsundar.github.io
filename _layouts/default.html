@@ -24,18 +24,28 @@
 <body>
     <header class="site-header">
         <div class="wrapper">
-            <div class="header-top">
-                <!-- Mobile Menu Toggle -->
-                <button class="menu-toggle" id="mobile-menu-btn" aria-label="Toggle navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" id="mobile-menu-btn" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
-                <!-- Site Title (Center) -->
+            <!-- Navigation (Left on Desktop, Collapsed on Mobile) -->
+            <nav class="site-nav" id="site-navigation">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/research/' | relative_url }}">Research</a>
+                <a href="{{ '/phd/' | relative_url }}">PhD</a>
+                <a href="{{ '/publications/' | relative_url }}">Publications</a>
+                <a href="{{ '/software/' | relative_url }}">Software</a>
+                <a href="{{ '/blog/' | relative_url }}">Blog</a>
+            </nav>
+
+            <div class="header-right">
+                <!-- Site Title (Right) -->
                 <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
 
-                <!-- Actions (Right) -->
+                <!-- Actions -->
                 <div class="header-actions">
                     <button class="theme-toggle" id="theme-toggle-btn" aria-label="Toggle theme">
                         <!-- Sun/Moon SVG will be dynamically swapped or handled via JS -->
@@ -46,16 +56,6 @@
                     </button>
                 </div>
             </div>
-
-            <!-- Navigation (Bottom Left) -->
-            <nav class="site-nav" id="site-navigation">
-                <a href="{{ '/' | relative_url }}">Home</a>
-                <a href="{{ '/research/' | relative_url }}">Research</a>
-                <a href="{{ '/phd/' | relative_url }}">PhD</a>
-                <a href="{{ '/publications/' | relative_url }}">Publications</a>
-                <a href="{{ '/software/' | relative_url }}">Software</a>
-                <a href="{{ '/blog/' | relative_url }}">Blog</a>
-            </nav>
         </div>
     </header>
 
