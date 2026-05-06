@@ -18,8 +18,38 @@ title: Home
     </div>
 </div>
 
-<div class="nav-grid">
-    <a href="{{ '/research/' | relative_url }}" class="nav-grid-link">
+<hr>
+
+<div class="fade-in mb-8 mt-8">
+    <h2>Featured Initiatives</h2>
+    <div class="nav-grid" style="margin-top: 2rem;">
+        <a href="{{ '/outreach/dhyuti/' | relative_url }}" class="nav-grid-link">
+            <div class="featured-card fade-in">
+                <h3>Dhyuti Frontiers &rarr;</h3>
+                <p>An open science initiative to enable capacity building & knowledge dissemination in AI for Science and Engineering.</p>
+            </div>
+        </a>
+        <a href="{{ '/outreach/saralai/' | relative_url }}" class="nav-grid-link">
+            <div class="featured-card fade-in">
+                <h3>SARAL AI &rarr;</h3>
+                <p>A generative AI assisted research dissemination and diffusion platform aimed at national-scale accessibility.</p>
+            </div>
+        </a>
+        <a href="{{ '/outreach/gdg/' | relative_url }}" class="nav-grid-link">
+            <div class="featured-card fade-in">
+                <h3>GDG AI for Science &rarr;</h3>
+                <p>Enabling capacity building of Google technologies for scientific discovery within the India Chapter.</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<hr>
+
+<div class="fade-in mt-8">
+    <h2>Directory</h2>
+    <div class="nav-grid" style="margin-top: 2rem;">
+        <a href="{{ '/research/' | relative_url }}" class="nav-grid-link">
         <div class="suave-card fade-in">
             <h3>Research &rarr;</h3>
             <p>Forward and inverse Fluid Structure Interaction, PINNs, and Generative AI.</p>
