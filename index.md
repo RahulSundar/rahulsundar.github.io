@@ -24,20 +24,20 @@ title: Home
     <h2>Featured Initiatives</h2>
     <div class="nav-grid" style="margin-top: 2rem;">
         <a href="{{ '/outreach/dhyuti/' | relative_url }}" class="nav-grid-link">
-            <div class="featured-card fade-in">
-                <h3>Dhyuti Frontiers &rarr;</h3>
+            <div class="suave-card fade-in">
+                <h3>Dhyuti Frontiers</h3>
                 <p>An open science initiative to enable capacity building & knowledge dissemination in AI for Science and Engineering.</p>
             </div>
         </a>
         <a href="{{ '/outreach/saralai/' | relative_url }}" class="nav-grid-link">
-            <div class="featured-card fade-in">
-                <h3>SARAL AI &rarr;</h3>
+            <div class="suave-card fade-in">
+                <h3>SARAL AI</h3>
                 <p>A generative AI assisted research dissemination and diffusion platform aimed at national-scale accessibility.</p>
             </div>
         </a>
         <a href="{{ '/outreach/gdg/' | relative_url }}" class="nav-grid-link">
-            <div class="featured-card fade-in">
-                <h3>GDG AI for Science &rarr;</h3>
+            <div class="suave-card fade-in">
+                <h3>GDG AI for Science</h3>
                 <p>Enabling capacity building of Google technologies for scientific discovery within the India Chapter.</p>
             </div>
         </a>
@@ -51,49 +51,49 @@ title: Home
     <div class="nav-grid" style="margin-top: 2rem;">
         <a href="{{ '/research/' | relative_url }}" class="nav-grid-link">
         <div class="suave-card fade-in">
-            <h3>Research &rarr;</h3>
+            <h3>Research</h3>
             <p>Forward and inverse Fluid Structure Interaction, PINNs, and Generative AI.</p>
         </div>
     </a>
     <a href="{{ '/phd/' | relative_url }}" class="nav-grid-link">
         <div class="suave-card fade-in">
-            <h3>Doctoral Work &rarr;</h3>
+            <h3>Doctoral Work</h3>
             <p>Full thesis, AI-generated podcast summaries, and seminar presentations.</p>
         </div>
     </a>
     <a href="{{ '/publications/' | relative_url }}" class="nav-grid-link">
         <div class="suave-card fade-in">
-            <h3>Publications &rarr;</h3>
+            <h3>Publications</h3>
             <p>Peer-reviewed journal articles and conference proceedings.</p>
         </div>
     </a>
     <a href="{{ '/software/' | relative_url }}" class="nav-grid-link">
         <div class="suave-card fade-in">
-            <h3>Software &rarr;</h3>
+            <h3>Software</h3>
             <p>Open-source tools and platforms, including SARAL AI and PyIBAML.</p>
         </div>
     </a>
     <a href="{{ '/outreach/' | relative_url }}" class="nav-grid-link">
         <div class="suave-card fade-in">
-            <h3>Outreach &rarr;</h3>
+            <h3>Outreach</h3>
             <p>Community initiatives, Dhyuti Frontiers, and GDG AI for Science.</p>
         </div>
     </a>
     <a href="{{ '/teaching/' | relative_url }}" class="nav-grid-link">
         <div class="suave-card fade-in">
-            <h3>Teaching &rarr;</h3>
+            <h3>Teaching</h3>
             <p>Mentorship and educational endeavors.</p>
         </div>
     </a>
     <a href="{{ '/blog/' | relative_url }}" class="nav-grid-link">
         <div class="suave-card fade-in">
-            <h3>Blog &rarr;</h3>
+            <h3>Blog</h3>
             <p>Technical deep-dives and non-technical musings.</p>
         </div>
     </a>
     <a href="{{ '/resume/' | relative_url }}" class="nav-grid-link">
         <div class="suave-card fade-in">
-            <h3>Resume &rarr;</h3>
+            <h3>Resume</h3>
             <p>Professional experience, education, skills, and hackathons.</p>
         </div>
     </a>
