@@ -100,16 +100,24 @@ img {
     border-radius: 0.25rem;
 }
 
-/* Layout */
+/* Layout Wrappers */
 .wrapper {
-    max-width: var(--content-width);
+    max-width: var(--content-width); /* 900px for reading content */
     margin: 0 auto;
     padding: 0 1.5rem;
 }
 
-/* Header */
+.header-wrapper {
+    max-width: 1200px; /* Wider for laptop header */
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .site-header {
-    background-color: rgba(252, 252, 252, 0.85);
+    background-color: rgba(248, 250, 252, 0.85);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border-color);
@@ -121,15 +129,7 @@ img {
 }
 
 [data-theme="dark"] .site-header {
-    background-color: rgba(5, 5, 5, 0.85);
-}
-
-.site-header .wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    padding: 0 3rem;
+    background-color: rgba(11, 17, 32, 0.85);
 }
 
 /* Navigation (Left) */
@@ -145,13 +145,30 @@ img {
 
 .site-nav a {
     color: var(--text-color);
-    opacity: 0.7;
+    opacity: 0.6;
     transition: var(--transition);
+    position: relative;
+    padding-bottom: 0.25rem;
+}
+
+.site-nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--accent-color);
+    transition: width 0.3s ease;
 }
 
 .site-nav a:hover {
     color: var(--heading-color);
     opacity: 1;
+}
+
+.site-nav a:hover::after {
+    width: 100%;
 }
 
 /* Right Header Container */
@@ -164,7 +181,7 @@ img {
 /* Site Title */
 .site-title {
     font-family: var(--font-serif);
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: var(--heading-color);
     letter-spacing: 0.02em;
@@ -342,10 +359,9 @@ img {
 }
 
 /* Media Queries */
-@media (max-width: 900px) {
-    .site-header .wrapper {
+@media (max-width: 1000px) {
+    .header-wrapper {
         flex-wrap: wrap;
-        padding: 0 1.5rem;
     }
     
     .menu-toggle {
